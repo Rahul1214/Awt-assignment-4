@@ -58,7 +58,7 @@
             </tr>
         </table>
         <?php
-        $salary=0;  
+            $salary=0;  
         $da=0;
         $hra=0;
         $pf=0;
@@ -131,7 +131,6 @@
             }
         }
         if($cat == 'part_time'){
-        echo "The Basic Salary is $basic"; 
         echo "</br>";
         echo "The Salary is $salary";          
         }
@@ -166,6 +165,7 @@
         echo "</br>";            
         }
         ?>
+        <br>
         <br>
         <input type="submit" name="submit" value="Back"/>
     </form>
