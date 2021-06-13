@@ -31,7 +31,7 @@
     }     
 ?>  
 <br>
-    <form method="post" action="register.php">
+    <form method="post" action="p8.php">
         <table border="0">
             <tr>
                 <td>First Name</td><td><?php echo $fname;?></td>
